@@ -8,6 +8,8 @@
 #define BT_ENVIRONMENT @"sandbox"
 #endif
 
+#define BT_EMAIL @"pablo@petitionersinc.com"
+
 #define BT_SANDBOX_MERCHANT_ID @"q8qgx74s9hyr5h44"
 #define BT_SANDBOX_CLIENT_SIDE_ENCRYPTION_KEY @"MIIBCgKCAQEA3rAu8XzdDONA32nsDP8LNg/wIG8LNsFO6lgi4r6qdzsmaGvoe/u1bsG7zRuNx0moZ6CtLjCX3W19zDdrzPFbI3/xJsSI9N2xyFjIWboJkrtqxMCzTIGpBkSo2Ht0NbYj0h/P7Xt03r5PesxiNeRN7B7Y+p6UutzLapFdN++N6devfIgfaybSbZ83FPasjAtaLn9vsK8v/6wq78ENbDo/VGqBjFPLzefi+nTxQLiWPmFQPb4/hQO47XZpqkOeEKK3jZ8JLW/QAzOMRlrANxCLO9FZ1G21h6jussr5q2zV0zuGLc69Zvfawahokl/XzKtmAxQ7ZhYXa5YN8tQaTHQaQwIDAQAB"
 
