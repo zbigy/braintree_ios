@@ -17,7 +17,7 @@
  * You must use [client cardView] to alloc and init a VTCardView.
  * Do NOT create a VTCardView with [[VTCardView alloc] init]
  *
- * The default size of a VTCardView is 300 width x 74 height. The height can not be changed,
+ * The default size of a VTCardView is 300 width x 74 height. The height cannot be changed,
  * but the width can be set to any value greater than or equal to 280.
  */
 
@@ -32,9 +32,9 @@
 @property (nonatomic, assign) CGFloat cornerRadius;
 
 // UI customization on the "Use Card" button
-@property (strong, nonatomic) UIColor *useCardButtonBackgroundColor;
-@property (strong, nonatomic) UIFont  *useCardButtonTitleFont; // default is [UIFont boldSystemFontOfSize:16]
-@property (strong, nonatomic) UIFont  *infoButtonFont;         // default is [UIFont boldSystemFontOfSize:11]
+@property (nonatomic, strong) UIColor *useCardButtonBackgroundColor;
+@property (nonatomic, strong) UIFont  *useCardButtonTitleFont; // default is [UIFont boldSystemFontOfSize:16]
+@property (nonatomic, strong) UIFont  *infoButtonFont;         // default is [UIFont boldSystemFontOfSize:11]
 
 // Convenience methods
 - (void)setWidth:(CGFloat)newWidth; // Width must be >= 280

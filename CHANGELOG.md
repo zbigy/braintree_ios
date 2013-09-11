@@ -1,3 +1,19 @@
+## 2.1.2
+
+* Add approvedPaymentMethodWithCodeAndCard helper method. This is similar to approvedPaymentMethodWithCode, but returns an object that contains additional information about the card referenced by the payment method code. 
+
+## 2.1.1
+
+* Rename VTClient method, "+ (VTClient *)sharedClient;" to "+ (VTClient *)sharedVTClient;" to avoid Apple's newly-introduced static analysis flag.
+* Fix namespacing compilation error with TTTAttributedLabel.
+
+## 2.1.0
+
+* Library is renamed to "braintree_ios".
+* iOS 7 Support
+* New framework requirement: Please add AdSupport.framework, CoreTelephony.framework and CoreText.framework to "Link Binary with Libraries" under "Build Phases".
+* New VTClient initializers that include "customerEmail" parameter, please see VTClient.h
+
 ## 2.0.3
 
 * Centers modals to fit different screen sizes.
