@@ -2,18 +2,4 @@
 #ifndef braintree_ios_VenmoTouchSettings_h
 #define braintree_ios_VenmoTouchSettings_h
 
-#if IS_PRODUCTION
-#define BT_ENVIRONMENT @"production"
-#else
-#define BT_ENVIRONMENT @"sandbox"
-#endif
-
-#define BT_EMAIL @"pablo@petitionersinc.com"
-
-#define BT_SANDBOX_MERCHANT_ID @"q8qgx74s9hyr5h44"
-#define BT_SANDBOX_CLIENT_SIDE_ENCRYPTION_KEY @"MIIBCgKCAQEA3rAu8XzdDONA32nsDP8LNg/wIG8LNsFO6lgi4r6qdzsmaGvoe/u1bsG7zRuNx0moZ6CtLjCX3W19zDdrzPFbI3/xJsSI9N2xyFjIWboJkrtqxMCzTIGpBkSo2Ht0NbYj0h/P7Xt03r5PesxiNeRN7B7Y+p6UutzLapFdN++N6devfIgfaybSbZ83FPasjAtaLn9vsK8v/6wq78ENbDo/VGqBjFPLzefi+nTxQLiWPmFQPb4/hQO47XZpqkOeEKK3jZ8JLW/QAzOMRlrANxCLO9FZ1G21h6jussr5q2zV0zuGLc69Zvfawahokl/XzKtmAxQ7ZhYXa5YN8tQaTHQaQwIDAQAB"
-
-#define BT_PRODUCTION_MERCHANT_ID @"9xv78xgwg3hxvkd4"
-#define BT_PRODUCTION_CLIENT_SIDE_ENCRYPTION_KEY @"MIIBCgKCAQEAz0F0+ewbWg6xmZj4+fSKkd+DB1OiSHQyjk3MJOsKFdvMBhDIse/jsjQ/2FZN6wSJoGxr6a7N0SmNoN+FvO1h3zVRWAIxzrtj40ymsQvM+naPAjiniXwGZzYJX78iVgAV6s+19fxY6f++OYpFUEKtthqnhbLpzI9qmv4FrGK1/k+BEJ7wQJZ0LXBmVU/9/rWhRU5icD7oS2D4lPTrRm7bxzmuohuU0PnT9HdPF74bqpFnmfM+ppAuTojzS1Lragks4Mj+6fLuAapBXplr+MElffzRM7XurQqZGWYby05z9kJ8D8OVQ91hcVIrdfbrjb0MFp9h1XQBYoYlS+dX4snuYQIDAQAB"
-
 #endif
