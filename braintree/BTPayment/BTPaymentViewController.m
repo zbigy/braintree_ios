@@ -52,7 +52,7 @@
 
 + (id)paymentViewControllerWithVenmoTouchEnabled:(BOOL)hasVenmoTouchEnabled {
     BTPaymentViewController *paymentViewController =
-    [[BTPaymentViewController alloc] initWithStyle:UITableViewStyleGrouped
+    [[self alloc] initWithStyle:UITableViewStyleGrouped
                                    hasVenmoTouchEnabled:hasVenmoTouchEnabled];
     return paymentViewController;
 }
