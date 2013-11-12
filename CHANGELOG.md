@@ -1,3 +1,28 @@
+## 2.2.5
+
+* Bugfix in Venmo Touch server communication protocols.
+
+## 2.2.4
+
+* Hotfix: Fix minor bug introduced in v2.2.3.
+
+## 2.2.3
+
+* Fix bug with client-side encryption changes.
+
+## 2.2.2
+
+* Fix bug where payment form would fail when hiding zip code request (thanks [leogiertz](https://github.com/leogiertz)).
+
+## 2.2.1
+
+* Update podspec.
+
+## 2.2.0
+
+* Redesigns Venmo Touch for iOS 7 look and feel.
+* Addresses numerous Github issues.
+
 ## 2.1.2
 
 * Add approvedPaymentMethodWithCodeAndCard helper method. This is similar to approvedPaymentMethodWithCode, but returns an object that contains additional information about the card referenced by the payment method code. 

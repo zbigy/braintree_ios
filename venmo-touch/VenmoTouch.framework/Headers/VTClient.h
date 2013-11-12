@@ -1,5 +1,5 @@
 /*
- * Venmo SDK - Version 2.1.2
+ * Venmo SDK - Version 2.2.5
  *
  ******************************
  ******************************
@@ -34,7 +34,8 @@
  * credentials. Similarly, create your VTClient and pass in VTEnvironmentSandbox as your
  * testing environment.
  *
- * When you're ready to move to production, init your
+ * When you're ready to move to production, ensure that your VTClient is being initialized
+ * with your production merchant account credentials and VTEnvironmentProduction.
  *
  * When users manually enter a new payment method, please create and add a VTCheckboxView
  * near the form.
@@ -96,7 +97,10 @@ typedef NS_ENUM(NSInteger, VTPaymentMethodOptionStatus) {
 typedef NS_ENUM(NSInteger, VTEnvironment) {
     VTEnvironmentProduction,
     VTEnvironmentSandbox,
+    VTEnvironmentQA,
+    VTEnvironmentDevelopment
 };
+
 
 // Before your app is enabled with Venmo Touch, you should check the VTLiveStatus status.
 // If this returns VTLiveStatusNo, you should not show any touch views. If VTLiveStatus is equal to
