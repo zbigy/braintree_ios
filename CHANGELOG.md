@@ -1,3 +1,11 @@
+## 2.3.0
+
+* Ensure compliance with Apple's new IDFA policies.
+
+## 2.2.8
+
+* Fixes link to documentation
+
 ## 2.2.7
 
 * Hotfix: Fix broken 2.2.6 release.
